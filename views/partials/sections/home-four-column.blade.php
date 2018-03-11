@@ -1,7 +1,7 @@
 <div class="container" style="margin-bottom:10px;">
     <div class="row" style="padding:0px;">
         <div class="col-md-6">
-            {!! Widget::get('latest-faqs', ['pratik-iskele']) !!}
+            @latestFaqs('pratik-iskele')
         </div>
         <div class="col-md-2">
             <div class="thumbnail boxed" style="margin-top: 0;">

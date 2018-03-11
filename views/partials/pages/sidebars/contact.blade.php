@@ -1,6 +1,6 @@
     <div class="sidebar">
         <h4 class="uppercase motive"><strong>HABERLER</strong></h4>
-        @newsLatestPosts(5, 'sidebarLatestPosts')
+        @newsLatestPosts(5, 'sidebar-latest-posts')
 
         <hr />
 
