@@ -14,8 +14,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand visible-sm visible-xs" href="{{ url(locale()) }}"><img src="{!! Theme::url('img/head-logo-smal.png') !!}" alt=""></a>
-                    <a class="logo-small invisible hidden-xs hidden-sm" href="{{ url(locale()) }}"><img src="{!! Theme::url('img/head-logo-smal.png') !!}" alt=""></a>
+                    <a class="navbar-brand visible-sm visible-xs" href="{{ url(locale()) }}"><img src="{!! Theme::url('img/head-logo-smal.png') !!}" alt="{{ setting('theme::company-name') }}"></a>
+                    <a class="logo-small invisible hidden-xs hidden-sm" href="{{ url(locale()) }}"><img src="{!! Theme::url('img/head-logo-smal.png') !!}" alt="{{ setting('theme::company-name') }}"></a>
                 </div>
                 <p class="navbar-text scroll-move visible-md visible-lg">BİZE ULAŞIN <strong>{{ setting('theme::phone') }}</strong></p>
                 <div class="navbar-logo visible-md visible-lg">

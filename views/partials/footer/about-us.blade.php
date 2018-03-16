@@ -4,10 +4,10 @@
     </p>
     <p>{{ trans('themes::theme.footer.intro') }}</p><br/>
     <div>
-        <img src="{{ Theme::url('img/tsepng.png') }}"/>
-        <img src="{{ Theme::url('img/iso-9001.png') }}"/>
-        <img src="{{ Theme::url('img/tuv.png') }}"/>
-        <img src="{{ Theme::url('img/ce.png') }}"/>
+        {!! Html::image(Theme::url('img/tsepng.png'), 'TSE Belgesi') !!}
+        {!! Html::image(Theme::url('img/iso-9001.png'), 'ISO 9001 Belgesi') !!}
+        {!! Html::image(Theme::url('img/tuv.png'), 'TUV Belgesi') !!}
+        {!! Html::image(Theme::url('img/ce.png'), 'CE Belgesi') !!}
     </div>
     @include('partials.footer.quick-links')
 </div>
